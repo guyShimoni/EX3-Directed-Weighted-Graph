@@ -27,10 +27,16 @@ The methods:
 addNode- Adds a node to the graph.
 
 add edge-Adds an edge to the graph.
+
 removeNode- remove nodes from the graph.
+
 removeEdge-remove edge from the graph.
+
 save()- Saving the graph into a file in json format
+
 load()- Loading a graph from a file in json format
+
 shortestPath()-Returns the shortest path between two nodes using Dijkstra's Algorithm (https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
 connected_component-Finds the Strongly Connected Component(SCC) that node is a part of.
 (https://www.youtube.com/watch?v=wUgWX0nc4NY&feature=youtu.be) 
