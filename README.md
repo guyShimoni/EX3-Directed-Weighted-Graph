@@ -7,13 +7,15 @@ we implement graphs according to the json format.
 In addition, we compared two different languages of development (Python and Java).
 We compared Ex2 which works on graphs in java, and Ex3 in Python (development of identical graphs in different languages).
 
-### MyData-
+### MyData
 is a class implements the node_data and the edge_data interface and create a new type of object,
 is designed to create a vertex and edge in the graph for the class DiGraph .
 
-DiGraph- This class implements the interface of GraphAlgoInterface. responsible for all vertices and the edge of the graph it contains a number of operations like deleting and adding a vertex and edge and comparison of graphs, in addition it represents the structure of the graph. we chose dictionary data structure in Python with an O(1) time, the graph changes would be made quickly, even when it comes to a graph with A lots of nodes.
+### DiGraph
+This class implements the interface of GraphAlgoInterface. responsible for all vertices and the edge of the graph it contains a number of operations like deleting and adding a vertex and edge and comparison of graphs, in addition it represents the structure of the graph. we chose dictionary data structure in Python with an O(1) time, the graph changes would be made quickly, even when it comes to a graph with A lots of nodes.
 
-GraphAlgo- This class implements the interface of GraphAlgoInterface.
+### GraphAlgo
+This class implements the interface of GraphAlgoInterface.
 this class implements algorithms that can be run on the graph, responsible for executing algorithms on the graph like returns the shortest path between two nodes using Dijkstra's Algorithm, save and load a graph from json,and more.
 
 test_DiGraph- checks the integrity of the graph.
